@@ -20,7 +20,7 @@ pipeline {
                                     sourceFiles: 'index.html',
                                     removePrefix: '',
                                     remoteDirectory: '/var/www/html',
-                                    execCommand: 'sudo systemctl restart apache2'
+                                    execCommand: 'sudo systemctl restart httpd'
                                 )
                             ]
                         )
